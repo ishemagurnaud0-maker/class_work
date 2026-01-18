@@ -25,7 +25,7 @@ const server = http.createServer((req,res)=>{
         res.end(JSON.stringify({error: 'Not Found'}));
     }
 
-//Aready running on port 3000
+//Already running on port 3000
 
 });
 server.listen(3000,()=>{
